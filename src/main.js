@@ -74,7 +74,7 @@ class LINE extends Command {
         let sender = messages.from;
         
         this.command('.speed', this.getSpeed.bind(this));
-        this.command(`kickall ${payload}`,this.kickAll.bind(this));
+        this.command(`peabots ${payload}`,this.kickAll.bind(this));
     }
 
 }
